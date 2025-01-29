@@ -1,0 +1,43 @@
+/* Add any custom CSS here */
+.ProseMirror {
+  min-height: 200px;
+  padding: 1rem;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}
+
+.ProseMirror p {
+  margin: 1em 0;
+}
+
+.ProseMirror > *:first-child {
+  margin-top: 0;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+  padding-left: 2rem;
+  margin: 1em 0;
+}
+
+.ProseMirror h1 {
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.ProseMirror h2 {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+.ProseMirror h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+.btn-light.active {
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
