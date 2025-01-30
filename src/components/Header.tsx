@@ -24,7 +24,7 @@ const Header: React.FC = () => {
   return (
     <>
       <div className="d-flex justify-content-between align-items-center mb-4">
-        <h1>AI CV Builder</h1>
+        <h1><img src="/favicon.png" width="48px" className="me-3" />AI CV Builder</h1>
         <div className="d-flex gap-3 align-items-center">
           <InputGroup>
             <InputGroup.Text>Name</InputGroup.Text>
