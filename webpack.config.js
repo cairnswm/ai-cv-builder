@@ -9,7 +9,7 @@ const printCompilationMessage = require('./compilation.config.js');
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: process.env.PUBLIC_URL || "http://localhost:3102/",
+    publicPath: "/",
   },
 
   resolve: {
